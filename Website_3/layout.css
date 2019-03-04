@@ -1,0 +1,56 @@
+header {
+	background-image:url(header.jpg)
+	}
+	nav {
+		background-color:#666;
+	}
+section {
+	background-color:#999;
+	}
+footer {
+	background-image:url(footer.jpg);
+	}
+	
+.kutu1
+{
+	margin:10px;
+	margin-left:10px;
+	border:solid 2px;
+	float:left;
+	width:475px;
+	height:450px;
+	text-align:justify;
+}
+.kutu2
+{
+	margin:10px;
+	margin-left:11px;
+	border:solid 2px;
+	float:left;
+	width:475px;
+	height:450px;
+}
+
+.kutu{background-color:#969; opacity:0.9; border-radius:7px; width:800px; height:450px; margin-top:15px;}
+.kutu3
+{
+	width:1000px;
+	height:500px;
+	padding-top:100px;
+	padding-left:98px;
+	background-image:url(arkaplan.jpg);
+	background-repeat:no-repeat;
+}
+.kutu4
+{
+	margin-top:5px;
+	margin-left:245px;
+	border:solid 2px;
+	float:center;
+	width:475px;
+	height:450px;
+}
+
+
+
+
