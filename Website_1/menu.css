@@ -1,0 +1,143 @@
+
+
+ul{
+margin:0;
+padding:0;
+}
+
+li{
+display:inline;
+list-type:none;
+}
+
+a.glidebutton{
+display: inline-block;
+position: relative;
+color: white; /* default color */
+background: #3b51d2; /* default bg color */
+text-decoration: none;
+font: bold 14px Arial; /* font settings */
+letter-spacing: 2px; /* font settings */
+overflow: hidden;
+height: 30px; /* height of each button */
+text-align: center;
+border-radius: 5px; /* border radius */
+-moz-transition: all 0.3s ease-in-out; /* Enable CSS transition between property changes */
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+a.glidebutton > span:first-child{ /* first span inside button */
+position: relative;
+display: block;
+height: 100%;
+padding: 6px; /* padding of button */
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-moz-transition: all 0.3s ease-in-out; /* Enable CSS transition between property changes */
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+a.glidebutton > span:first-child:after{ /* CSS generated content */
+content: attr(data-text); /* Duplicate text of span markup */
+display: block;
+width: 100%;
+height: 100%;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: inherit;
+position: absolute;
+top:100%;
+left:0;
+}
+
+a.glidebutton:hover{
+color: black; /* color of button on hover */
+background: #72cb47; /* bg color of button on hover */
+box-shadow: 0 0 4px green inset;
+}
+
+a.glidebutton:hover > span:first-child{
+-moz-transform: translateY(-100%);
+-webkit-transform: translateY(-100%);
+-ms-transform: translateY(-100%);
+-o-transform: translateY(-100%);
+transform: translateY(-100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shadowblockmenu-v{
+font: bold 14px Germand;
+width: 190px; /* width of menu */
+}
+
+.shadowblockmenu-v ul{
+border: 1px solid #eee;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+.shadowblockmenu-v ul li{
+margin:0;
+padding:0;
+}
+
+.shadowblockmenu-v ul li a{
+display:block;
+text-transform: uppercase;
+color: #494949;
+padding: 10px 15px;
+text-decoration: none;
+border-bottom: 1px solid #cacaca;
+border-right: 1px solid #cacaca; /*right border between menu items*/
+-moz-box-shadow: inset 7px 0 10px rgba(114,114,114, 0.6); /* Add inset shadow to each menu item. First 3 values in (114,114,114, 0.5) specifies rgb values, last specifies opacity */
+-webkit-box-shadow: inset 7px 0 10px rgba(114,114,114, 0.6);
+box-shadow: inset 7px 0 10px rgba(114,114,114, 0.6);
+text-shadow: 0 -1px 1px #cfcfcf; /* CSS text shadow to give text some depth */
+-moz-transition: all 0.2s ease-in-out; /* Enable CSS transition between property changes */
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+.shadowblockmenu-v ul li a:hover, .shadowblockmenu-v ul li a.selected{
+color: black;
+-moz-box-shadow: inset 7px 0 10px rgba(216,89,39, 0.5), inset 0 0 15px rgba(216,89,39, 0.6), inset 0 0 20px rgba(216,89,39, 0.8); /* Add 3 inset shadows to each menu item  */
+-webkit-box-shadow: inset 7px 0 10px rgba(216,89,39, 0.5), inset 0 0 15px rgba(216,89,39, 0.6), inset 0 0 20px rgba(216,89,39, 0.8);
+box-shadow: inset 7px 0 10px rgba(216,89,39, 0.5), inset 0 0 15px rgba(216,89,39, 0.6), inset 0 0 20px rgba(216,89,39, 0.8);
+}
+
+
+
